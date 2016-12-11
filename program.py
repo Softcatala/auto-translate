@@ -46,8 +46,14 @@ def _parse_accents(string):
     string = string.replace(u"ñ",u'ñ')  
     return string
 
-def _get_marker(pos):
-    return "MATCH-" + str(pos)
+def _get_marker(pos, end, self_closed):
+    if self_closed:
+        return "MATCHSELF-" + str(pos)
+
+    s = ''
+    if end is True:
+        s = "END"
+    return s + "MATCH-" + str(pos)
 
 def _get_translation(text):
     
@@ -62,9 +68,22 @@ def _get_translation(text):
     print ("Translated (returned):" + translated.encode("utf-8"))
     return translated
 
-def _translate_from_spanish(text):
+tm = None
 
-    # Create markers for HTML marks
+def _load_tm(filename):
+    strings = {}
+    input_po = polib.pofile(filename)
+
+    for entry in input_po:
+        if entry.msgstr is '':
+            continue
+
+        strings[entry.msgid] = entry.msgstr
+
+    print("Read Translation memory:" + str(len(strings)))
+    return strings
+
+def _create_markers_in_string(text):
     markers = {}
     regex = re.compile(r"\<(.*?)\>", re.VERBOSE)
     matches = regex.findall(text)
@@ -72,7 +91,9 @@ def _translate_from_spanish(text):
     for match in matches:
         match = '<' + match + '>'
         where = text.find(match)
-        marker = _get_marker(pos)
+        end = match[1] == '/'
+        self_closed = match[len(match) - 2] == '/'
+        marker = _get_marker(pos, end, self_closed)
 
         if where + len (match) < len(text):
             marker = marker + ' '
@@ -84,14 +105,53 @@ def _translate_from_spanish(text):
         markers[marker] = match 
         pos = pos + 1
 
+    return markers, text
+
+def _translate_from_spanish(english, text):
+
+    global tm
+
+    if tm is None:
+        tm = _load_tm('tm/gimp-tm.po')
+        print "XXX memory loaded"
+
+    # Create markers for HTML tags Spanish
+    markers, text = _create_markers_in_string(text)
+
+    # Create markers for HTML tags English
+    markers_en, text_en = _create_markers_in_string(english)
+
+    # Create markers for HTML text
+    markers_text = {}
+    regex = re.compile(r"MATCH-[0-9](.*?)ENDMATCH-[0-9]", re.VERBOSE)
+    matches = regex.findall(text)
+    matches_en = regex.findall(text_en)
+    
+    pos = 0
+    ca_pos = 0
+    for match in matches:
+        eng = matches_en[pos].strip()
+        if eng in tm:
+            print "Found text in tags in TM:'" + eng.encode("utf-8") + "'"
+            marker = "CATEXT-" + str(ca_pos)
+            print ("Marker: '{0}'".format(marker.encode("utf-8")))
+            print ("Match: '{0}'".format(match.encode("utf-8")))
+            text = text.replace(match.strip(), marker, 1)
+            markers_text[marker] = tm[eng]
+            ca_pos = ca_pos + 1
+
+        pos = pos + 1
+
     translated = _get_translation(text)
    
-    # Put back markers
-    pos = 0
+    # Put back markers for HTML tags Spanish
     for marker in markers.keys():
         translated = translated.replace(marker, markers[marker], 1) 
-        pos = pos + 1
     
+    # Put back markers for HTML text
+    for marker in markers_text.keys():
+        translated = translated.replace(marker, markers_text[marker], 1)
+
     print ("Translated:" + translated.encode("utf-8"))
     return translated
 
@@ -180,7 +240,7 @@ def main():
         cnt = cnt + 1
 
         sp = _parse_accents(strings[entry.msgid])
-        translated = _translate_from_spanish(sp)
+        translated = _translate_from_spanish(entry.msgid, sp)
         translated = _word_replacement(translated)
         entry.msgstr = translated
         print("{0} [en] -> {1} [es] -> {2} [ca]".format(entry.msgid.encode('utf-8'), 
