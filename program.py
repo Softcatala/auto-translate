@@ -52,6 +52,19 @@ def _get_marker(pos):
 def _get_marker_lastline(pos):
     return " MATCH-" + str(pos)
 
+def _get_translation(text):
+    
+    # Request translation
+    url = "https://www.softcatala.org/apertium/json/translate?langpair=es|ca&markUnknown=no"
+    url += "&q=" + urllib.quote_plus(text.encode('utf-8'));
+    print "url->" + url
+
+    response = urllib.urlopen(url)
+    data = json.loads(response.read())
+    translated =  data['responseData']['translatedText']
+    print ("Translated (returned):" + translated.encode("utf-8"))
+    return translated
+
 def _translate_from_spanish(text):
 
     # Create markers for HTML marks
@@ -66,17 +79,9 @@ def _translate_from_spanish(text):
         markers.append(match)
         pos = pos + 1
 
-    # Request translation
-    url = "https://www.softcatala.org/apertium/json/translate?langpair=es|ca&markUnknown=no"
-    url += "&q=" + urllib.quote_plus(text.encode('utf-8'));
-    print "url->" + url
-
-    response = urllib.urlopen(url)
-    data = json.loads(response.read())
-    translated =  data['responseData']['translatedText']
-    print ("Translated (returned):" + translated.encode("utf-8"))
+    translated = _get_translation(text)
+   
     # Put back markers
-
     pos = 0
     for mark in markers:
         translated = translated.replace(_get_marker(pos), mark, 1) 
