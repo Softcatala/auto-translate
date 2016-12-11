@@ -515,7 +515,7 @@ msgstr ""
 #: src/filters/alpha-to-logo/t-o-p.xml174(para)
 #, fuzzy
 msgid "<quote>Edge only</quote> activated"
-msgstr "MATCH-0 Només bord</quote> activat"
+msgstr "<quote>Només bord</quote> activat"
 
 #: src/filters/alpha-to-logo/t-o-p.xml180(term)
 msgid "Base color"
@@ -787,7 +787,7 @@ msgstr ""
 #: src/filters/alpha-to-logo/neon.xml139(para)
 #, fuzzy
 msgid "<quote>Neon</quote> with shadow"
-msgstr "MATCH-0 Neó</quote> amb ombra"
+msgstr "<quote>Neó</quote> amb ombra"
 
 # auto-translated
 #: src/filters/alpha-to-logo/neon.xml149(para)
@@ -1146,8 +1146,8 @@ msgid ""
 msgstr ""
 "Aquest filtre deriva del script <quote>Calor resplandeciente</quote> "
 "(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Calor"
-" resplandeciente</quote>0 </menuchoice> en la finestra de la imatge), que "
-"crea un logotip de text resplandeciente (miri a dalt)."
+" resplandeciente</guimenuitem></menuchoice> en la finestra de la imatge), "
+"que crea un logotip de text resplandeciente (miri a dalt)."
 
 # auto-translated
 #: src/filters/alpha-to-logo/glowing.xml59(para)
@@ -1368,10 +1368,10 @@ msgid ""
 "outlook when used with the default options, thus the name."
 msgstr ""
 "El filtre deriva de script "
-"<quote>Poliment</quote>(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Poliment</quote>0"
-" </menuchoice> en la finestra de la imatge), que crea un logotip (veure més "
-"amunt) amb una perspectiva de poliment quan usa les opcions predeterminades,"
-" d'aquí el nom."
+"<quote>Poliment</quote>(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Poliment</guimenuitem></menuchoice>"
+" en la finestra de la imatge), que crea un logotip (veure més amunt) amb una"
+" perspectiva de poliment quan usa les opcions predeterminades, d'aquí el "
+"nom."
 
 # auto-translated
 #: src/filters/alpha-to-logo/glossy.xml69(para)
@@ -1738,9 +1738,9 @@ msgid ""
 " in the image window), which creates a frozen logo like the example above."
 msgstr ""
 "Aquest filtre prové del script de logotip <quote>Gebrat</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Gebrat</quote>0"
-" </menuchoice> en la finestra de la imatge), que crea un logotip gebrat com "
-"l'exemple anterior."
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Gebrat</guimenuitem></menuchoice>"
+" en la finestra de la imatge), que crea un logotip gebrat com l'exemple "
+"anterior."
 
 # auto-translated
 #: src/filters/alpha-to-logo/frosty.xml47(para)
@@ -1882,7 +1882,7 @@ msgid ""
 msgstr ""
 "Aquest filtre prové del script <quote>Metall fred</quote> "
 "(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Metall"
-" fred</quote>0 </menuchoice> en la finestra de la imatge), que crea un "
+" fred</guimenuitem></menuchoice> en la finestra de la imatge), que crea un "
 "logotip a partir d'un text com es mostra a dalt."
 
 #: src/filters/alpha-to-logo/coolmetal.xml61(para)
@@ -2209,9 +2209,9 @@ msgid ""
 "<quote>simplistic, but cool, chromed logo</quote> (see above)."
 msgstr ""
 "Aquest filtre prové del script de logotip <quote>Cromar</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Cromar</quote>0"
-" </menuchoice>), que, segons l'autor del script, crea un <quote>logotip "
-"cromado, simple però interessant</quote> (es mostra a dalt)."
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Cromar</guimenuitem></menuchoice>),"
+" que, segons l'autor del script, crea un <quote>logotip cromado, simple però"
+" interessant</quote> (es mostra a dalt)."
 
 # auto-translated
 #: src/filters/alpha-to-logo/chrome.xml52(para)
@@ -2489,8 +2489,8 @@ msgid ""
 " shown above."
 msgstr ""
 "Aquest filtre prové del script-fu <quote>Esmicolar</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Esmicolar</quote>0"
-" </menuchoice>), que crea un logotip amb l'efecte mostrat a dalt."
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Esmicolar</guimenuitem></menuchoice>),"
+" que crea un logotip amb l'efecte mostrat a dalt."
 
 #: src/filters/alpha-to-logo/chip-away.xml68(para)
 msgid ""
@@ -2726,7 +2726,7 @@ msgstr "omple la selecció amb blanc,"
 #: src/filters/alpha-to-logo/chip-away.xml280(para)
 #, fuzzy
 msgid "<link linkend=\"plug-in-spread\">spreads</link> the pixels,"
-msgstr "MATCH-0 escampa</link> els píxels,"
+msgstr "<link linkend=\"plug-in-spread\">escampa</link> els píxels,"
 
 # auto-translated
 #: src/filters/alpha-to-logo/chip-away.xml285(para)
@@ -2824,9 +2824,9 @@ msgid ""
 "instance:"
 msgstr ""
 "Prové del script <quote>Guix</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Guix</quote>0"
-" </menuchoice> en la finestra de la imatge), que crea un logotip d'un text "
-"de la seva elecció, per exemple:"
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Guix</guimenuitem></menuchoice>"
+" en la finestra de la imatge), que crea un logotip d'un text de la seva "
+"elecció, per exemple:"
 
 #: src/filters/alpha-to-logo/chalk.xml63(para)
 msgid "The <quote>Chalk</quote> logo"
@@ -3296,8 +3296,8 @@ msgid ""
 msgstr ""
 "El filtre deriva dels scripts de logotip <quote>Bàsic I</quote> i "
 "<quote>Bàsic II</quote> (consulti "
-"<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</quote>0"
-" </menuchoice>), que dibuixa un text amb l'efecte del filtre, per exemple."
+"<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu></menuchoice>),"
+" que dibuixa un text amb l'efecte del filtre, per exemple."
 
 # auto-translated
 #: src/filters/alpha-to-logo/basic.xml80(para)
@@ -3378,7 +3378,7 @@ msgstr ""
 #: src/filters/alpha-to-logo/basic.xml163(para)
 #, fuzzy
 msgid "<guilabel>Mode</guilabel>: Multiply,"
-msgstr "MATCH-0 Manera</guilabel>: multiplicar,"
+msgstr "<guilabel>Manera</guilabel>: multiplicar,"
 
 # auto-translated
 #: src/filters/alpha-to-logo/basic.xml166(para)
@@ -3387,7 +3387,7 @@ msgid ""
 "<guilabel>Gradient</guilabel>: FG to BG (RGB), where FG is white and BG is "
 "black,"
 msgstr ""
-"MATCH-0 Degradat</guilabel>: FG a BG (RGB), on FG és blanc i BG és negre,"
+"<guilabel>Degradat</guilabel>: FG a BG (RGB), on FG és blanc i BG és negre,"
 
 #: src/filters/alpha-to-logo/basic.xml172(para)
 msgid "<guilabel>Offset</guilabel>: 20,"
@@ -3397,13 +3397,13 @@ msgstr "<guilabel>Desplaçament</guilabel>: 20,"
 #: src/filters/alpha-to-logo/basic.xml175(para)
 #, fuzzy
 msgid "<guilabel>Shape</guilabel>: Radial,"
-msgstr "MATCH-0 Forma</guilabel>: radial,"
+msgstr "<guilabel>Forma</guilabel>: radial,"
 
 # auto-translated
 #: src/filters/alpha-to-logo/basic.xml178(para)
 #, fuzzy
 msgid "<guilabel>Dithering</guilabel>: checked."
-msgstr "MATCH-0 Difuminat</guilabel>: marcat."
+msgstr "<guilabel>Difuminat</guilabel>: marcat."
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -3537,8 +3537,8 @@ msgid ""
 msgstr ""
 "El filtre deriva del script <quote>Resplendor alienígena</quote> "
 "(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Resplendor"
-" alienígena</quote>0 </menuchoice> en la finestra d'imatge), que crea un "
-"logotip amb l'efecte de text anterior."
+" alienígena</guimenuitem></menuchoice> en la finestra d'imatge), que crea un"
+" logotip amb l'efecte de text anterior."
 
 #: src/filters/alpha-to-logo/alien-glow.xml66(para)
 msgid ""
@@ -3776,8 +3776,8 @@ msgid ""
 msgstr ""
 "El filtre deriva del script <quote>Contorn 3D</quote> "
 "(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Contorn"
-" 3D</quote>0 </menuchoice> en la finestra d'imatge), que crea un logotip "
-"(miri a dalt) amb el contorn del text i una ombra de base."
+" 3D</guimenuitem></menuchoice> en la finestra d'imatge), que crea un logotip"
+" (miri a dalt) amb el contorn del text i una ombra de base."
 
 # auto-translated
 #: src/filters/alpha-to-logo/3d-outline.xml54(para)

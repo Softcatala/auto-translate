@@ -47,10 +47,7 @@ def _parse_accents(string):
     return string
 
 def _get_marker(pos):
-    return " MATCH-" + str(pos) + " "
-
-def _get_marker_lastline(pos):
-    return " MATCH-" + str(pos)
+    return "MATCH-" + str(pos)
 
 def _get_translation(text):
     
@@ -68,24 +65,31 @@ def _get_translation(text):
 def _translate_from_spanish(text):
 
     # Create markers for HTML marks
-    markers = []
-
+    markers = {}
     regex = re.compile(r"\<(.*?)\>", re.VERBOSE)
     matches = regex.findall(text)
     pos = 0
     for match in matches:
         match = '<' + match + '>'
-        text = text.replace(match, _get_marker(pos), 1)
-        markers.append(match)
+        where = text.find(match)
+        marker = _get_marker(pos)
+
+        if where + len (match) < len(text):
+            marker = marker + ' '
+ 
+        if where > 0:
+            marker = ' ' + marker
+        
+        text = text.replace(match, marker, 1)
+        markers[marker] = match 
         pos = pos + 1
 
     translated = _get_translation(text)
    
     # Put back markers
     pos = 0
-    for mark in markers:
-        translated = translated.replace(_get_marker(pos), mark, 1) 
-        translated = translated.replace(_get_marker_lastline(pos), mark, 1) 
+    for marker in markers.keys():
+        translated = translated.replace(marker, markers[marker], 1) 
         pos = pos + 1
     
     print ("Translated:" + translated.encode("utf-8"))
@@ -187,7 +191,7 @@ def main():
         entry.flags.append("fuzzy")
 
     input_po.save(output_file)
-    print ("Auto translated strings" + str(cnt))
+    print ("Auto translated strings:" + str(cnt))
 
 
 if __name__ == "__main__":
