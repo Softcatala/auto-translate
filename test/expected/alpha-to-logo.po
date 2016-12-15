@@ -358,6 +358,9 @@ msgid "The <quote>Particle Trace</quote> logo"
 msgstr "Logotip <quote>Ressegueix amb un vaporitzador</quote>"
 
 # auto-translated
+#  Create -> Crea
+#  Select -> Selecciona
+#  Selection -> Selecció
 #: src/filters/alpha-to-logo/t-o-p.xml45(para)
 #, fuzzy
 msgid ""
@@ -368,6 +371,8 @@ msgstr ""
 "creu seleccions, empleni-les amb algun color, i aplicació el filtre."
 
 # auto-translated
+#  Particle Trace -> Ressegueix amb un vaporitzador
+#  Bubble -> Bombolla
 #: src/filters/alpha-to-logo/t-o-p.xml49(para)
 #, fuzzy
 msgid ""
@@ -424,6 +429,13 @@ msgid "<quote>Particle Trace</quote> options"
 msgstr "Opcions de <quote>Ressegueix amb un vaporitzador</quote>"
 
 # auto-translated
+#  Leading -> Principal
+#  Feather -> Plomall
+#  Text layer -> Capa de text
+#  Select -> Selecciona
+#  Text Layer -> Capa de text
+#  Feathering -> Difuminació
+#  Selection -> Selecció
 #: src/filters/alpha-to-logo/t-o-p.xml98(para)
 #, fuzzy
 msgid ""
@@ -433,8 +445,8 @@ msgid ""
 "feather\">feathering</link>."
 msgstr ""
 "Actualment aquesta opció és la vora del text de la capa del Script-Fu del "
-"logotip <quote>Traçat de partícules</quote> (d'aquí el nom enganyós). Aquí "
-"es determina l'amplària del <link linkend=\"gimp-selection-"
+"logotip <quote>Ressegueix amb un vaporitzador</quote> (d'aquí el nom "
+"enganyós). Aquí es determina l'amplària del <link linkend=\"gimp-selection-"
 "feather\">difuminat</link> de l'ombra blanca."
 
 #: src/filters/alpha-to-logo/t-o-p.xml107(term)
@@ -442,6 +454,9 @@ msgid "Hit rate"
 msgstr "Relació d'encerts"
 
 # auto-translated
+#  Plug-In -> Connector
+#  Convert -> Converteix
+#  Sparkle -> Espurnes
 #: src/filters/alpha-to-logo/t-o-p.xml109(para)
 #, fuzzy
 msgid ""
@@ -451,7 +466,7 @@ msgid ""
 "ranges from from 0.0 to 1.0, but some values may be not useful:"
 msgstr ""
 "Aquesta opció estableix la quantitat de punts de llum produïts pel filtre "
-"<link linkend=\"plug-in-rgb-noise\">soroll</link> i per tant la quantitat de"
+"<link linkend=\"plug-in-rgb-noise\">Soroll</link> i per tant la quantitat de"
 " punts convertits a <link linkend=\"plug-in-sparkle\">centelleigs</link>. "
 "Els rangs de valor van de 0.0 a 1.0, però alguns valors poden no ser útils:"
 
@@ -459,21 +474,24 @@ msgstr ""
 #: src/filters/alpha-to-logo/t-o-p.xml117(title)
 #, fuzzy
 msgid "<quote>Hit rate</quote> examples"
-msgstr "Exemples de <quote>Taxa d'èxit</quote>"
+msgstr "Exemples de <quote>Relació d'encerts</quote>"
 
 # auto-translated
+#  Hit rate -> Relació d'encerts
 #: src/filters/alpha-to-logo/t-o-p.xml124(para)
 #, fuzzy
 msgid "Hit rate 0.10"
 msgstr "Taxa d'èxit a 0.10"
 
 # auto-translated
+#  Hit rate -> Relació d'encerts
 #: src/filters/alpha-to-logo/t-o-p.xml133(para)
 #, fuzzy
 msgid "Hit rate 0.25"
 msgstr "Taxa d'èxit a 0.25"
 
 # auto-translated
+#  Hit rate -> Relació d'encerts
 #: src/filters/alpha-to-logo/t-o-p.xml142(para)
 #, fuzzy
 msgid "Hit rate 0.40"
@@ -484,6 +502,9 @@ msgid "Edge width"
 msgstr "Amplada de la vora"
 
 # auto-translated
+#  Filled -> Justificat
+#  Select -> Selecciona
+#  Selection -> Selecció
 #: src/filters/alpha-to-logo/t-o-p.xml151(para)
 #, fuzzy
 msgid ""
@@ -515,13 +536,16 @@ msgstr ""
 #: src/filters/alpha-to-logo/t-o-p.xml174(para)
 #, fuzzy
 msgid "<quote>Edge only</quote> activated"
-msgstr "<quote>Només bord</quote> activat"
+msgstr "<quote>Només la vora</quote> activat"
 
 #: src/filters/alpha-to-logo/t-o-p.xml180(term)
 msgid "Base color"
 msgstr "Color base"
 
 # auto-translated
+#  Default -> Per defecte
+#  Selector -> Seletor
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/t-o-p.xml182(para)
 #, fuzzy
 msgid ""
@@ -535,6 +559,12 @@ msgstr ""
 "color."
 
 # auto-translated
+#  Background Color -> Color del fons
+#  enable -> habilita
+#  Enabled -> Habilitat
+#  The background color -> El color del fons
+#  Selector -> Seletor
+#  Enable -> Habilita
 #: src/filters/alpha-to-logo/t-o-p.xml193(para)
 #, fuzzy
 msgid ""
@@ -549,8 +579,8 @@ msgstr ""
 "Aquest filtre s'usa per emplenar una nova capa de fons. Tingui en compte que"
 " a dalt de la capa de fons hi ha una capa d'ombra blanca amb una opacitat "
 "del 90%, així que veurà el color de fons només parcialment. Si l'opció "
-"<quote>Només borda</quote> està activada, l'àrea del canal alfa es neteja i "
-"veurà el color de fons. De nou, quan prem el botó de la caixa de color, "
+"<quote>Només la vora</quote> està activada, l'àrea del canal alfa es neteja "
+"i veurà el color de fons. De nou, quan prem el botó de la caixa de color, "
 "apareix un selector de color on pot seleccionar un color."
 
 # auto-translated
@@ -573,6 +603,12 @@ msgid "Filter details"
 msgstr "Detalls de filtre"
 
 # auto-translated
+#  Feather -> Plomall
+#  Feathered -> Difuminat
+#  Plug-In -> Connector
+#  Select -> Selecciona
+#  Sparkle -> Espurnes
+#  Selection -> Selecció
 #: src/filters/alpha-to-logo/t-o-p.xml220(para)
 #, fuzzy
 msgid ""
@@ -721,6 +757,11 @@ msgid "Effect size (pixels * 5)"
 msgstr "Mida de l'efecte (píxels * 5)"
 
 # auto-translated
+#  Font size -> Mida de la lletra
+#  Height -> Alçada
+#  Ignore -> Ignora
+#  Blur Radius -> Radi de difuminat
+#  Blur radius -> Radi del difuminat
 #: src/filters/alpha-to-logo/neon.xml92(para)
 #, fuzzy
 msgid ""
@@ -736,6 +777,9 @@ msgstr ""
 " del tub, el desplaçament de l'ombra i el radi de desenfoqui. Així que és una bona idea seleccionar l'altura dels seus objectes com un punt d'inici. (<quote>píxels  5</quote> no té sentit, ignori-ho.)"
 
 # auto-translated
+#  Default -> Per defecte
+#  Selector -> Seletor
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/neon.xml105(para)
 #, fuzzy
 msgid ""
@@ -754,6 +798,10 @@ msgid "Glow color"
 msgstr "Color de la lluentor"
 
 # auto-translated
+#  Default -> Per defecte
+#  Selector -> Seletor
+#  Glowing -> Lluentor
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/neon.xml116(para)
 #, fuzzy
 msgid ""
@@ -770,6 +818,7 @@ msgid "Create shadow"
 msgstr "Crea una ombra"
 
 # auto-translated
+#  Remove -> Suprimeix
 #: src/filters/alpha-to-logo/neon.xml126(para)
 #, fuzzy
 msgid ""
@@ -826,6 +875,7 @@ msgstr ""
 "alfa, especialment la seva forma."
 
 # auto-translated
+#  Glowing -> Lluentor
 #: src/filters/alpha-to-logo/neon.xml178(para)
 #, fuzzy
 msgid ""
@@ -836,6 +886,8 @@ msgstr ""
 "llum de neó."
 
 # auto-translated
+#  Background Color -> Color del fons
+#  Filled -> Justificat
 #: src/filters/alpha-to-logo/neon.xml182(para)
 #, fuzzy
 msgid ""
@@ -850,6 +902,9 @@ msgstr ""
 "el<quote>Color de fons</quote>."
 
 # auto-translated
+#  Overview -> Resum
+#  Filter -> Filtre
+#  filter -> filtre
 #: src/filters/alpha-to-logo/neon.xml188(para)
 #, fuzzy
 msgid "Overview of the Neon filter layers:"
@@ -884,6 +939,10 @@ msgid ""
 msgstr ""
 
 # auto-translated
+#  enable -> habilita
+#  Enabled -> Habilitat
+#  Function -> Funció
+#  Enable -> Habilita
 #: src/filters/alpha-to-logo/introduction.xml34(para)
 #, fuzzy
 msgid ""
@@ -897,6 +956,7 @@ msgstr ""
 "provi a <link linkend=\"gimp-layer-alpha-add\">afegir un canal alfa</link>."
 
 # auto-translated
+#  Glossary -> Glossari
 #: src/filters/alpha-to-logo/introduction.xml41(para)
 #, fuzzy
 msgid ""
@@ -906,13 +966,16 @@ msgid ""
 "a filter only <emphasis>partially</emphasis> to some (or all) pixels by "
 "using alpha values from 1 to 254."
 msgstr ""
-"L'efecte del filtre sempre s'aplicarà segons els valors d'alfa. El <link "
+"L'efecte del filtre sempre s'aplicarà segons els valors de alfa. El <link "
 "linkend=\"glossary-alpha\">alfa</link> de qualsevol píxel té un rang de "
 "valor de 0 (transparent) a 255 (totalment opac). És possible aplicar un "
 "filtre només <emphasis>parcialment</emphasis> a alguns (o tots) els píxels "
 "usant valoris alfa d'1 a 254."
 
 # auto-translated
+#  Replace -> Reemplaça
+#  Values -> Valors
+#  Create -> Crea
 #: src/filters/alpha-to-logo/introduction.xml48(para)
 #, fuzzy
 msgid ""
@@ -930,10 +993,12 @@ msgstr ""
 "alfa al canal que representa la selecció i llavors operen sobre la selecció."
 
 # auto-translated
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/introduction.xml57(title)
 #, fuzzy
 msgid "How to apply an <quote>Alpha to Logo</quote> filter to a selection?"
-msgstr "Com aplicar un filtre <quote>Alfa a logotip</quote> a una selecció?"
+msgstr ""
+"Com aplicar un filtre <quote>Canal alfa a logotip</quote> a una selecció?"
 
 # auto-translated
 #: src/filters/alpha-to-logo/introduction.xml61(para)
@@ -947,6 +1012,7 @@ msgstr ""
 " si no <link linkend=\"gimp-layer-alpha-add\">anyada un canal alfa</link>."
 
 # auto-translated
+#  Layer Name -> Nom de la capa
 #: src/filters/alpha-to-logo/introduction.xml67(para)
 #, fuzzy
 msgid ""
@@ -965,6 +1031,9 @@ msgstr ""
 "<menuchoice><guimenu>Selecciona</guimenu><guimenuitem>Inverteix</guimenuitem></menuchoice>."
 
 # auto-translated
+#  Select -> Selecciona
+#  Invert -> Inverteix
+#  Remove -> Suprimeix
 #: src/filters/alpha-to-logo/introduction.xml83(para)
 #, fuzzy
 msgid ""
@@ -972,7 +1041,7 @@ msgid ""
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Clear</guimenuitem></menuchoice>."
 msgstr ""
 "Llevar la selecció (invertida): "
-"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Netejar</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Neteja</guimenuitem></menuchoice>."
 
 #: src/filters/alpha-to-logo/introduction.xml92(para)
 msgid ""
@@ -1125,6 +1194,8 @@ msgid "The <quote>Glowing Hot</quote> logo"
 msgstr "Logotip <quote>Ferro roent</quote>"
 
 # auto-translated
+#  Glowing -> Lluentor
+#  Glowing Hot -> Ferro roent
 #: src/filters/alpha-to-logo/glowing.xml45(para)
 #, fuzzy
 msgid ""
@@ -1136,6 +1207,7 @@ msgstr ""
 "transparents)."
 
 # auto-translated
+#  Glowing -> Lluentor
 #: src/filters/alpha-to-logo/glowing.xml49(para)
 #, fuzzy
 msgid ""
@@ -1144,12 +1216,15 @@ msgid ""
 " Hot</guimenuitem></menuchoice> in the image window), which creates a "
 "glowing text logo (see above)."
 msgstr ""
-"Aquest filtre deriva del script <quote>Calor resplandeciente</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Calor"
-" resplandeciente</guimenuitem></menuchoice> en la finestra de la imatge), "
-"que crea un logotip de text resplandeciente (miri a dalt)."
+"Aquest filtre deriva del script <quote>Ferro roent</quote> "
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Ferro"
+" roent</guimenuitem></menuchoice> en la finestra de la imatge), que crea un "
+"logotip de text resplandeciente (miri a dalt)."
 
 # auto-translated
+#  yellow -> groc
+#  Yellow -> Groc
+#  Glowing -> Lluentor
 #: src/filters/alpha-to-logo/glowing.xml59(para)
 #, fuzzy
 msgid ""
@@ -1188,6 +1263,13 @@ msgid "Effect size (pixels * 3)"
 msgstr "Mida de l'efecte (píxels * 3)"
 
 # auto-translated
+#  Feather -> Plomall
+#  Font size -> Mida de la lletra
+#  Filled -> Justificat
+#  Glowing -> Lluentor
+#  Select -> Selecciona
+#  Feathering -> Difuminació
+#  Selection -> Selecció
 #: src/filters/alpha-to-logo/glowing.xml98(para)
 #, fuzzy
 msgid ""
@@ -1197,7 +1279,7 @@ msgid ""
 "red, yellow, and white. These feathered colors make the hot metal effect."
 msgstr ""
 "En realitat és l'opció mida\n"
-" de la tipografia del logotip <quote>Calor resplandeciente</quote>. El valor s'usa per calcular la mida\n"
+" de la tipografia del logotip <quote>Ferro roent</quote>. El valor s'usa per calcular la mida\n"
 " de la vora difuminada (<xref linkend=\"gimp-selection-feather\"/>) abans l'alfa s'emplena amb vermell, groc i blanc Aquests colors difuminats fan l'efecte de metall calent."
 
 #: src/filters/alpha-to-logo/glowing.xml106(title)
@@ -1213,6 +1295,9 @@ msgid "Effect size 350"
 msgstr "Mida de l'efecte 350"
 
 # auto-translated
+#  Default -> Per defecte
+#  Selector -> Seletor
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/glowing.xml131(para)
 #, fuzzy
 msgid ""
@@ -1225,6 +1310,11 @@ msgstr ""
 "de color, si vol triar un color diferent."
 
 # auto-translated
+#  yellow -> groc
+#  Yellow -> Groc
+#  Feather -> Plomall
+#  Filled -> Justificat
+#  Glowing -> Lluentor
 #: src/filters/alpha-to-logo/glowing.xml143(para)
 #, fuzzy
 msgid ""
@@ -1237,6 +1327,8 @@ msgstr ""
 " del difuminat i de la intensitat de color a l'àrea difuminada."
 
 # auto-translated
+#  Feather -> Plomall
+#  Feathering -> Difuminació
 #: src/filters/alpha-to-logo/glowing.xml149(para)
 #, fuzzy
 msgid ""
@@ -1253,6 +1345,9 @@ msgid "Effect size"
 msgstr "Mida de l'efecte"
 
 # auto-translated
+#  Feather -> Plomall
+#  Glowing -> Lluentor
+#  Glowing Hot -> Ferro roent
 #: src/filters/alpha-to-logo/glowing.xml163(para)
 #, fuzzy
 msgid "Glowing hot metal colors and their relative feather sizes"
@@ -1261,6 +1356,9 @@ msgstr ""
 "difuminat"
 
 # auto-translated
+#  Filled -> Justificat
+#  Glowing -> Lluentor
+#  Overlay -> Sobreposa
 #: src/filters/alpha-to-logo/glowing.xml169(para)
 #, fuzzy
 msgid ""
@@ -1331,6 +1429,9 @@ msgid "The <quote>Glossy</quote> logo"
 msgstr "Logotip <quote>Lluentor Glossy</quote>"
 
 # auto-translated
+#  Pattern -> Patró
+#  Slight -> Lleugera
+#  Light 3 -> Llum 3
 #: src/filters/alpha-to-logo/glossy.xml43(para)
 #, fuzzy
 msgid ""
@@ -1343,6 +1444,8 @@ msgstr ""
 "basi."
 
 # auto-translated
+#  Select -> Selecciona
+#  Language -> Idioma
 #: src/filters/alpha-to-logo/glossy.xml49(para)
 #, fuzzy
 msgid ""
@@ -1359,6 +1462,7 @@ msgstr ""
 "els píxels visibles de la capa activa."
 
 # auto-translated
+#  Default -> Per defecte
 #: src/filters/alpha-to-logo/glossy.xml58(para)
 #, fuzzy
 msgid ""
@@ -1367,11 +1471,11 @@ msgid ""
 " in the image window), which creates a logo (see above) with a glossy "
 "outlook when used with the default options, thus the name."
 msgstr ""
-"El filtre deriva de script "
-"<quote>Poliment</quote>(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Poliment</guimenuitem></menuchoice>"
-" en la finestra de la imatge), que crea un logotip (veure més amunt) amb una"
-" perspectiva de poliment quan usa les opcions predeterminades, d'aquí el "
-"nom."
+"El filtre deriva de script <quote>Lluentor "
+"Glossy</quote>(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Lluentor"
+" Glossy</guimenuitem></menuchoice> en la finestra de la imatge), que crea un"
+" logotip (veure més amunt) amb una perspectiva de poliment quan usa les "
+"opcions predeterminades, d'aquí el nom."
 
 # auto-translated
 #: src/filters/alpha-to-logo/glossy.xml69(para)
@@ -1399,6 +1503,7 @@ msgid "Blend gradient (text)"
 msgstr "Degradat fos (text)"
 
 # auto-translated
+#  Default -> Per defecte
 #: src/filters/alpha-to-logo/glossy.xml107(para)
 #, fuzzy
 msgid ""
@@ -1413,24 +1518,31 @@ msgstr ""
 "linkend=\"gimp-tool-blend\">degradat de fos</link>. Prement sobre el botó de"
 " mostra s'obrirà un senzill <link linkend=\"gimp-gradient-dialog\">diàleg de"
 " degradat</link>, on pot seleccionar un degradat. <quote>Text</quote> es "
-"refereix al logotip <quote>Poliment</quote> , que crea un logotip a partir "
-"d'un text i no té sentit aquí."
+"refereix al logotip <quote>Lluentor Glossy</quote> , que crea un logotip a "
+"partir d'un text i no té sentit aquí."
 
 # auto-translated
+#  Reverse -> Invers
+#  Filled -> Justificat
+#  Gradient reverse -> Degradat invertit
 #: src/filters/alpha-to-logo/glossy.xml116(para)
 #, fuzzy
 msgid ""
 "When <guilabel>Text gradient reverse</guilabel> is checked, the alpha will "
 "be filled with a gradient blend starting at the bottom."
 msgstr ""
-"Quan està marcat <guilabel>Text de degradat invertit</guilabel>, l'alfa "
-"s'emplenarà amb un degradat de fos començant des de la part inferior."
+"Quan està marcat <guilabel>Inverteix el degradat del text</guilabel>, l'alfa"
+" s'emplenarà amb un degradat de fos començant des de la part inferior."
 
 #: src/filters/alpha-to-logo/glossy.xml123(term)
 msgid "Pattern (text)"
 msgstr "Patró (text)"
 
 # auto-translated
+#  Preview -> Previsualització
+#  Current -> Actual
+#  Filled -> Justificat
+#  Pressed -> Enfonsat
 #: src/filters/alpha-to-logo/glossy.xml125(para)
 #, fuzzy
 msgid ""
@@ -1441,12 +1553,12 @@ msgid ""
 "preview area on the left will produce a popup preview of the current pattern"
 " when pressed."
 msgstr ""
-"Quan està marcat <guilabel>Usar un patró en lloc d'un degradat</guilabel>, "
-"l'alfa s'emplenarà amb un patró. Pot obrir un <link linkend=\"gimp-pattern-"
-"dialog\">diàleg de patrons</link> per seleccionar un patró de la seva "
-"elecció prement el botó <guibutton>Examinar</guibutton>. L'àrea de vista "
-"prèvia a l'esquerra produirà una vista prèvia emergent del patró actiu quan "
-"es premi."
+"Quan està marcat <guilabel>Per al text, utilitza un patró en comptes d'un "
+"degradat</guilabel>, l'alfa s'emplenarà amb un patró. Pot obrir un <link "
+"linkend=\"gimp-pattern-dialog\">diàleg de patrons</link> per seleccionar un "
+"patró de la seva elecció prement el botó <guibutton>Examinar</guibutton>. "
+"L'àrea de vista prèvia a l'esquerra produirà una vista prèvia emergent del "
+"patró actiu quan es premi."
 
 #: src/filters/alpha-to-logo/glossy.xml136(term)
 #: src/filters/alpha-to-logo/comic.xml83(term)
@@ -1464,6 +1576,7 @@ msgstr ""
 " d'un tipus de vora, realitzat amb una capa que conté una còpia engrandida de l'alfa (els detalls es veuen més a baix)."
 
 # auto-translated
+#  Blend gradient (outline) -> Degradat (contorn)
 #: src/filters/alpha-to-logo/glossy.xml145(term)
 #, fuzzy
 msgid "Blend gradient (outline); Pattern (outline)"
@@ -1479,8 +1592,8 @@ msgid ""
 "area."
 msgstr ""
 "Igual que les opcions de <quote>text</quote> per a la capa activa, aquestes "
-"opcions especifiquen el degradat o el patró (quan <guilabel>Usar un patró "
-"per al contorn en lloc d'un degradat</guilabel> està marcat) usat per "
+"opcions especifiquen el degradat o el patró (quan <guilabel>Per al contorn, "
+"utilitza un patró en comptes d'un degradat</guilabel> està marcat) usat per "
 "emplenar l'àrea del contorn."
 
 #: src/filters/alpha-to-logo/glossy.xml156(term)
@@ -1488,6 +1601,9 @@ msgid "Use pattern overlay"
 msgstr "Sobreposa el patró"
 
 # auto-translated
+#  Filled -> Justificat
+#  Options -> Opcions
+#  Overlay -> Sobreposa
 #: src/filters/alpha-to-logo/glossy.xml158(para)
 #, fuzzy
 msgid ""
@@ -1502,6 +1618,9 @@ msgstr ""
 "(patró o degradat) es combinaran."
 
 # auto-translated
+#  Preview -> Previsualització
+#  Current -> Actual
+#  Patterns -> Patrons
 #: src/filters/alpha-to-logo/glossy.xml165(para)
 #, fuzzy
 msgid ""
@@ -1520,6 +1639,7 @@ msgid "Default bumpmap settings"
 msgstr "Paràmetres per defecte del mapa de relleu"
 
 # auto-translated
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/glossy.xml176(para)
 #, fuzzy
 msgid ""
@@ -1530,6 +1650,7 @@ msgstr ""
 "=\"plug-in-bump-map\">mapa de relleu</link>."
 
 # auto-translated
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/glossy.xml185(para)
 #, fuzzy
 msgid ""
@@ -1546,6 +1667,8 @@ msgid "Shadow"
 msgstr "Ombra"
 
 # auto-translated
+#  X offset -> Desplaçament de X
+#  Y offset -> Desplaçament de Y
 #: src/filters/alpha-to-logo/glossy.xml196(para)
 #, fuzzy
 msgid ""
@@ -1556,7 +1679,7 @@ msgid ""
 " the image, while the background layer will keep the size of the active "
 "layer."
 msgstr ""
-"Opcionalment el filtre crea una capa que conté una <link linkend=\"script-fu-drop-shadow\">ombra basi</link>. La capa de l'ombra es mourà el nombre de píxels que indiqui <guilabel>Desplaçament d'ombra X</guilabel> a la dreta i els el nombre de píxels que indiqui <guilabel>Desplaçament d'ombra I</guilabel> cap avall. Tingui en compte que això pot engrandir la imatge, mentre que la capa de fons mantindrà la mida\n"
+"Opcionalment el filtre crea una capa que conté una <link linkend=\"script-fu-drop-shadow\">ombra basi</link>. La capa de l'ombra es mourà el nombre de píxels que indiqui <guilabel>Desplaçament X de l'ombra</guilabel> a la dreta i els el nombre de píxels que indiqui <guilabel>Desplaçament Y de l'ombra</guilabel> cap avall. Tingui en compte que això pot engrandir la imatge, mentre que la capa de fons mantindrà la mida\n"
 " de la capa activa."
 
 # auto-translated
@@ -1572,6 +1695,8 @@ msgstr ""
 "activa i la capa de contorn:"
 
 # auto-translated
+#  Replace -> Reemplaça
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/glossy.xml216(para)
 #, fuzzy
 msgid ""
@@ -1584,6 +1709,7 @@ msgstr ""
 "selecció amb el degradat de fos o el patró especificat."
 
 # auto-translated
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/glossy.xml222(para)
 #, fuzzy
 msgid ""
@@ -1597,9 +1723,10 @@ msgstr ""
 "la capa activa: primer, l'alfa de la capa activa s'usarà per fer la "
 "selecció. Però abans d'emplenar la selecció amb un degradat o un patró, la "
 "selecció es <link linkend=\"gimp-selection-grow\">engrandirà</link> el "
-"nombre de píxels que indiqui el <guilabel>Grandària del contorn</guilabel>."
+"nombre de píxels que indiqui el <guilabel>Mida del contorn</guilabel>."
 
 # auto-translated
+#  Filled -> Justificat
 #: src/filters/alpha-to-logo/glossy.xml230(para)
 #, fuzzy
 msgid ""
@@ -1610,6 +1737,7 @@ msgstr ""
 "encara veurà una vora (<quote>contorn</quote>), perquè"
 
 # auto-translated
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/glossy.xml236(para)
 #, fuzzy
 msgid ""
@@ -1630,6 +1758,10 @@ msgstr ""
 "capa activa s'ajusta a <quote>Pantalla</quote>."
 
 # auto-translated
+#  Options -> Opcions
+#  Learn more -> Més informació
+#  Overlay -> Sobreposa
+#  Script -> Script
 #: src/filters/alpha-to-logo/glossy.xml248(para)
 #, fuzzy
 msgid ""
@@ -1737,12 +1869,15 @@ msgid ""
 "(<menuchoice><guimenu>File</guimenu><guisubmenu>Create</guisubmenu><guisubmenu>Logos</guisubmenu><guimenuitem>Frosty</guimenuitem></menuchoice>"
 " in the image window), which creates a frozen logo like the example above."
 msgstr ""
-"Aquest filtre prové del script de logotip <quote>Gebrat</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Gebrat</guimenuitem></menuchoice>"
+"Aquest filtre prové del script de logotip <quote>Congelat</quote> "
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Congelat</guimenuitem></menuchoice>"
 " en la finestra de la imatge), que crea un logotip gebrat com l'exemple "
 "anterior."
 
 # auto-translated
+#  Frosty -> Congelat
+#  Values -> Valors
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/frosty.xml47(para)
 #, fuzzy
 msgid ""
@@ -1757,13 +1892,15 @@ msgstr ""
 "s'aplicarà segons els valoris alfa."
 
 # auto-translated
+#  Alpha to Logo -> Canal alfa a logotip
+#  Alpha to Logo Filters -> Filtres Canal alfa a logotip
 #: src/filters/alpha-to-logo/frosty.xml54(para)
 #, fuzzy
 msgid ""
 "Unlike the most alpha to logo filters, the <quote>Frosty</quote> filter will"
 " <emphasis>not</emphasis> resize the image to the active layer's size."
 msgstr ""
-"Al contrari que la majoria de filtres de logotips, el filtre <quote>Gebrat</quote> <emphasis>no</emphasis> redimensiona la imatge a la mida\n"
+"Al contrari que la majoria de filtres de logotips, el filtre <quote>Congelat</quote> <emphasis>no</emphasis> redimensiona la imatge a la mida\n"
 " de la capa activa."
 
 #: src/filters/alpha-to-logo/frosty.xml63(para)
@@ -1799,6 +1936,8 @@ msgid "Effect size 400"
 msgstr "Mida de l'efecte 400"
 
 # auto-translated
+#  Default -> Per defecte
+#  Selector -> Seletor
 #: src/filters/alpha-to-logo/frosty.xml122(para)
 #, fuzzy
 msgid ""
@@ -1862,6 +2001,7 @@ msgid "The <quote>Cool Metal</quote> logo"
 msgstr "Logotip <quote>Metàl·lic</quote>"
 
 # auto-translated
+#  Mirror -> Mirall
 #: src/filters/alpha-to-logo/coolmetal.xml43(para)
 #, fuzzy
 msgid ""
@@ -1880,10 +2020,10 @@ msgid ""
 " Metal</guimenuitem></menuchoice> in the image window), which creates a logo"
 " from a text as shown above."
 msgstr ""
-"Aquest filtre prové del script <quote>Metall fred</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Metall"
-" fred</guimenuitem></menuchoice> en la finestra de la imatge), que crea un "
-"logotip a partir d'un text com es mostra a dalt."
+"Aquest filtre prové del script <quote>Metàl·lic</quote> "
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Metàl·lic</guimenuitem></menuchoice>"
+" en la finestra de la imatge), que crea un logotip a partir d'un text com es"
+" mostra a dalt."
 
 #: src/filters/alpha-to-logo/coolmetal.xml61(para)
 msgid ""
@@ -1897,6 +2037,13 @@ msgid "<quote>Cool Metal</quote> options"
 msgstr "Opcions de <quote>Metàl·lic</quote>"
 
 # auto-translated
+#  Feather -> Plomall
+#  Blurring -> S'està difuminant
+#  Ripple -> Onades del mar
+#  Font size -> Mida de la lletra
+#  Pattern -> Patró
+#  Feathering -> Difuminació
+#  Emboss -> Esculpeix
 #: src/filters/alpha-to-logo/coolmetal.xml86(para)
 #, fuzzy
 msgid ""
@@ -1909,6 +2056,7 @@ msgstr ""
 ", per difuminat, desenfoqui, repujat i per crear patrons d'ones."
 
 # auto-translated
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/coolmetal.xml97(para)
 #, fuzzy
 msgid ""
@@ -1925,6 +2073,8 @@ msgid "Gradient"
 msgstr "Degradat"
 
 # auto-translated
+#  Default -> Per defecte
+#  Cool Metal -> Metàl·lic
 #: src/filters/alpha-to-logo/coolmetal.xml106(para)
 #, fuzzy
 msgid ""
@@ -1945,6 +2095,12 @@ msgid "Gradient reverse"
 msgstr "Degradat invertit"
 
 # auto-translated
+#  Default -> Per defecte
+#  Direction -> Direcció
+#  From Top -> Del capdamunt
+#  Reverse -> Invers
+#  To bottom -> A la part inferior
+#  Bottom -> Inferior
 #: src/filters/alpha-to-logo/coolmetal.xml117(para)
 #, fuzzy
 msgid ""
@@ -1972,12 +2128,17 @@ msgid "Making the reflection"
 msgstr "Creació de la reflexió"
 
 # auto-translated
+#  Filled -> Justificat
 #: src/filters/alpha-to-logo/coolmetal.xml137(para)
 #, fuzzy
 msgid "Assuming that the alpha has been filled with a gradient, then:"
 msgstr "Assumint que l'alfa s'ha emplenat amb un degradat, llavors:"
 
 # auto-translated
+#  Create a new layer -> Crea una capa nova
+#  New Layer -> Nova capa
+#  Mirror -> Mirall
+#  Create a New Layer -> Crea una capa nova
 #: src/filters/alpha-to-logo/coolmetal.xml141(para)
 #, fuzzy
 msgid ""
@@ -1986,10 +2147,12 @@ msgid ""
 "paste\">Paste</link> the area in a new layer."
 msgstr ""
 "Crear una capa nova contenint l'àrea que vol reflectir, per exemple <link "
-"linkend=\"gimp-edit-copy\">Copiar</link> i <link linkend=\"gimp-edit-"
-"paste\">Pegar</link> l'àrea en una capa nova."
+"linkend=\"gimp-edit-copy\">Copia</link> i <link linkend=\"gimp-edit-"
+"paste\">Enganxa</link> l'àrea en una capa nova."
 
 # auto-translated
+#  Height -> Alçada
+#  The Original -> L'original
 #: src/filters/alpha-to-logo/coolmetal.xml149(para)
 #, fuzzy
 msgid ""
@@ -2000,8 +2163,8 @@ msgid ""
 msgstr ""
 "Per fer que el reflex sembli natural, escali la capa (el filtre la "
 "redimensiona al 85% de l'altura original). Pot fer això usant, per exemple, "
-"el comando <link linkend=\"gimp-layer-scale\">escalar capa</link> o la <link"
-" linkend=\"gimp-tool-scale\">eina escalar</link>."
+"el comando <link linkend=\"gimp-layer-scale\">Escala la capa</link> o la "
+"<link linkend=\"gimp-tool-scale\">eina escalar</link>."
 
 # auto-translated
 #: src/filters/alpha-to-logo/coolmetal.xml157(para)
@@ -2033,6 +2196,8 @@ msgid "Making the shadow"
 msgstr "Creació de l'ombra"
 
 # auto-translated
+#  Replace -> Reemplaça
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/coolmetal.xml174(para)
 #, fuzzy
 msgid ""
@@ -2041,8 +2206,8 @@ msgid ""
 "selection-replace\">Alpha to Selection</link>, then"
 msgstr ""
 "Emplenar l'alfa amb negre, per exemple mitjançant <link linkend=\"gimp-"
-"layer-duplicate\">duplicar la capa</link> i <link linkend=\"gimp-layer-"
-"alpha-selection-replace\">alfa a selecció</link>, llavors"
+"layer-duplicate\">Duplica la capa</link> i <link linkend=\"gimp-layer-alpha-"
+"selection-replace\">Alfa a la selecció</link>, llavors"
 
 # auto-translated
 #: src/filters/alpha-to-logo/coolmetal.xml181(para)
@@ -2052,17 +2217,18 @@ msgid ""
 "perspective\">Perspective</link> tool,"
 msgstr ""
 "encongir i inclinar la capa, per exemple usant l'eina <link linkend=\"gimp-"
-"tool-perspective\">perspectiva</link>,"
+"tool-perspective\">Perspectiva</link>,"
 
 # auto-translated
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/coolmetal.xml187(para)
 #, fuzzy
 msgid ""
 "and apply a <link linkend=\"plug-in-gauss\">Gaussian Blur</link> to the "
 "layer."
 msgstr ""
-"i aplicar un <link linkend=\"plug-in-gauss\">desenfoqui gausiano</link> a la"
-" capa."
+"i aplicar un <link linkend=\"plug-in-gauss\">Difuminat gaussià</link> a la "
+"capa."
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -2208,12 +2374,14 @@ msgid ""
 " which &mdash; according to the script author &mdash; creates a "
 "<quote>simplistic, but cool, chromed logo</quote> (see above)."
 msgstr ""
-"Aquest filtre prové del script de logotip <quote>Cromar</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Cromar</guimenuitem></menuchoice>),"
+"Aquest filtre prové del script de logotip <quote>Crom</quote> "
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Crom</guimenuitem></menuchoice>),"
 " que, segons l'autor del script, crea un <quote>logotip cromado, simple però"
 " interessant</quote> (es mostra a dalt)."
 
 # auto-translated
+#  Values -> Valors
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/chrome.xml52(para)
 #, fuzzy
 msgid ""
@@ -2228,6 +2396,7 @@ msgstr ""
 "s'aplicarà segons els valoris alfa."
 
 # auto-translated
+#  Chrome -> Crom
 #: src/filters/alpha-to-logo/chrome.xml58(para)
 #, fuzzy
 msgid ""
@@ -2283,6 +2452,10 @@ msgid "Offset 75"
 msgstr "Desplaçament 75"
 
 # auto-translated
+#  Feather -> Plomall
+#  Feathered -> Difuminat
+#  Select -> Selecciona
+#  Selection -> Selecció
 #: src/filters/alpha-to-logo/chrome.xml126(para)
 #, fuzzy
 msgid ""
@@ -2298,6 +2471,8 @@ msgstr ""
 "desplaçament."
 
 # auto-translated
+#  Feather -> Plomall
+#  Feathered -> Difuminat
 #: src/filters/alpha-to-logo/chrome.xml134(para)
 #, fuzzy
 msgid ""
@@ -2317,6 +2492,8 @@ msgid "Background Color"
 msgstr "Color del fons"
 
 # auto-translated
+#  Default -> Per defecte
+#  Selector -> Seletor
 #: src/filters/alpha-to-logo/chrome.xml145(para)
 #, fuzzy
 msgid ""
@@ -2488,9 +2665,10 @@ msgid ""
 " Away</guimenuitem></menuchoice>), which creates a text logo with the effect"
 " shown above."
 msgstr ""
-"Aquest filtre prové del script-fu <quote>Esmicolar</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Esmicolar</guimenuitem></menuchoice>),"
-" que crea un logotip amb l'efecte mostrat a dalt."
+"Aquest filtre prové del script-fu <quote>Roca esbocinada</quote> "
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotips</guisubmenu><guimenuitem>Roca"
+" esbocinada</guimenuitem></menuchoice>), que crea un logotip amb l'efecte "
+"mostrat a dalt."
 
 #: src/filters/alpha-to-logo/chip-away.xml68(para)
 msgid ""
@@ -2503,13 +2681,16 @@ msgstr ""
 #: src/filters/alpha-to-logo/chip-away.xml81(title)
 #, fuzzy
 msgid "<quote>Chip Away</quote> options"
-msgstr "Opcions de <quote>Esmicolar</quote>"
+msgstr "Opcions de <quote>Roca esbocinada</quote>"
 
 #: src/filters/alpha-to-logo/chip-away.xml91(term)
 msgid "Chip amount"
 msgstr "Quantitat de bocins"
 
 # auto-translated
+#  Filter applied -> S’ha aplicat el filtre
+#  Random -> Aleatori
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/chip-away.xml93(para)
 #, fuzzy
 msgid ""
@@ -2520,14 +2701,14 @@ msgid ""
 "range is 0-200."
 msgstr ""
 "Aquesta opció li permet variar la mida\n"
-" de l'àrea d'esmicolat. Però tingui en compte que <quote>Quantitat d'esmicolat</quote> no és la mida\n"
-" de l'àrea en píxels. S'usa com la màxima quantitat de píxels que escampa aleatòriament el filtre <link linkend=\"plug-in-spread\">Escampar</link> aplicat al mapa de relleu. El rang vàlid és 0-200."
+" de l'àrea d'esmicolat. Però tingui en compte que <quote>Quantitat de bocins</quote> no és la mida\n"
+" de l'àrea en píxels. S'usa com la màxima quantitat de píxels que escampa aleatòriament el filtre <link linkend=\"plug-in-spread\">Escampa</link> aplicat al mapa de relleu. El rang vàlid és 0-200."
 
 # auto-translated
 #: src/filters/alpha-to-logo/chip-away.xml101(title)
 #, fuzzy
 msgid "<quote>Chip amount</quote> examples"
-msgstr "Exemples de <quote>Quantitat d'esmicolat</quote>"
+msgstr "Exemples de <quote>Quantitat de bocins</quote>"
 
 #: src/filters/alpha-to-logo/chip-away.xml108(para)
 msgid "0"
@@ -2550,6 +2731,8 @@ msgid "Blur amount"
 msgstr "Nivell de difuminat"
 
 # auto-translated
+#  Gaussian Blur -> Difuminat gaussià
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/chip-away.xml144(para)
 #, fuzzy
 msgid ""
@@ -2557,15 +2740,17 @@ msgid ""
 "<link linkend=\"plug-in-gauss\">Gaussian blur</link> filter, which will blur"
 " the bump layer by this amount."
 msgstr ""
-"El valor especificat es passa de l'opció <quote>Ràdio</quote> al filtre "
-"<link linkend=\"plug-in-gauss\">Desenfoqui gaussià</link>, que desenfoca la "
-"capa de relleu en aquesta quantitat."
+"El valor especificat es passa de l'opció <quote>Radi</quote> al filtre <link"
+" linkend=\"plug-in-gauss\">Desenfoqui gaussià</link>, que desenfoca la capa "
+"de relleu en aquesta quantitat."
 
 #: src/filters/alpha-to-logo/chip-away.xml152(term)
 msgid "Invert"
 msgstr "Inverteix"
 
 # auto-translated
+#  Plug-In -> Connector
+#  Invert -> Inverteix
 #: src/filters/alpha-to-logo/chip-away.xml154(para)
 #, fuzzy
 msgid ""
@@ -2578,12 +2763,14 @@ msgstr ""
 "sembli esculpida."
 
 # auto-translated
+#  Invert -> Inverteix
 #: src/filters/alpha-to-logo/chip-away.xml160(title)
 #, fuzzy
 msgid "<quote>Chip Away</quote> inverted example"
-msgstr "Exemple invertit de <quote>Esmicolar</quote>"
+msgstr "Exemple invertit de <quote>Roca esbocinada</quote>"
 
 # auto-translated
+#  Invert -> Inverteix
 #: src/filters/alpha-to-logo/chip-away.xml167(para)
 #, fuzzy
 msgid "Inverted, (without drop shadow)"
@@ -2594,20 +2781,25 @@ msgid "Drop shadow"
 msgstr "Ombra"
 
 # auto-translated
+#  New Layer -> Nova capa
+#  Drop Shadow -> Ombra 
 #: src/filters/alpha-to-logo/chip-away.xml176(para)
 #, fuzzy
 msgid ""
 "If checked, a <link linkend=\"script-fu-drop-shadow\">Drop shadow</link> "
 "will be added to the image in a new layer below the active layer."
 msgstr ""
-"Si està marcada, una <link linkend=\"script-fu-drop-shadow\">Ombra "
-"basi</link> s'afegeix a la imatge en una capa nova sota la capa activa."
+"Si està marcada, una <link linkend=\"script-fu-drop-shadow\">Ombra</link> "
+"s'afegeix a la imatge en una capa nova sota la capa activa."
 
 #: src/filters/alpha-to-logo/chip-away.xml184(term)
 msgid "Keep bump layer"
 msgstr "Conserva la capa del relleu"
 
 # auto-translated
+#  Default -> Per defecte
+#  Plug-In -> Connector
+#  Remove -> Suprimeix
 #: src/filters/alpha-to-logo/chip-away.xml186(para)
 #, fuzzy
 msgid ""
@@ -2625,6 +2817,7 @@ msgid "Fill BG with pattern"
 msgstr "Omple el fons amb un patró"
 
 # auto-translated
+#  Filled -> Justificat
 #: src/filters/alpha-to-logo/chip-away.xml197(para)
 #, fuzzy
 msgid ""
@@ -2640,6 +2833,8 @@ msgid "Keep background"
 msgstr "Manté el fons"
 
 # auto-translated
+#  Default -> Per defecte
+#  Remove -> Suprimeix
 #: src/filters/alpha-to-logo/chip-away.xml207(para)
 #, fuzzy
 msgid ""
@@ -2653,6 +2848,8 @@ msgstr ""
 "dialog\">Diàleg de capes</link>."
 
 # auto-translated
+#  Preview -> Previsualització
+#  Pattern -> Patró
 #: src/filters/alpha-to-logo/chip-away.xml218(para)
 #, fuzzy
 msgid ""
@@ -2667,6 +2864,8 @@ msgstr ""
 "seleccionar patrons."
 
 # auto-translated
+#  Default -> Per defecte
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/chip-away.xml224(para)
 #, fuzzy
 msgid ""
@@ -2679,10 +2878,11 @@ msgstr ""
 "Green</quote> i <quote>Slate</quote>:"
 
 # auto-translated
+#  Pattern -> Patró
 #: src/filters/alpha-to-logo/chip-away.xml231(title)
 #, fuzzy
 msgid "Suggested <quote>Chip Away</quote> patterns"
-msgstr "Patrons suggerits per <quote>Esmicolar</quote>"
+msgstr "Patrons suggerits per <quote>Roca esbocinada</quote>"
 
 # auto-translated
 #: src/filters/alpha-to-logo/chip-away.xml238(para)
@@ -2709,6 +2909,9 @@ msgid "To achieve a chipping effect, the filter..."
 msgstr "Per aconseguir un efecte esmicolat, el filtre..."
 
 # auto-translated
+#  Replace -> Reemplaça
+#  New Layer -> Nova capa
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/chip-away.xml270(para)
 #, fuzzy
 msgid ""
@@ -2723,12 +2926,16 @@ msgid "fills the selection with white,"
 msgstr "omple la selecció amb blanc,"
 
 # auto-translated
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/chip-away.xml280(para)
 #, fuzzy
 msgid "<link linkend=\"plug-in-spread\">spreads</link> the pixels,"
 msgstr "<link linkend=\"plug-in-spread\">escampa</link> els píxels,"
 
 # auto-translated
+#  Gaussian -> Gaussià
+#  Gaussian Blur -> Difuminat gaussià
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/chip-away.xml285(para)
 #, fuzzy
 msgid ""
@@ -2739,6 +2946,7 @@ msgstr ""
 " capa."
 
 # auto-translated
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/chip-away.xml291(para)
 #, fuzzy
 msgid ""
@@ -2823,10 +3031,10 @@ msgid ""
 " in the image window), which creates a logo from a text of your choice, for "
 "instance:"
 msgstr ""
-"Prové del script <quote>Guix</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Guix</guimenuitem></menuchoice>"
-" en la finestra de la imatge), que crea un logotip d'un text de la seva "
-"elecció, per exemple:"
+"Prové del script <quote>Escrit amb guix</quote> "
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Escrit"
+" amb guix</guimenuitem></menuchoice> en la finestra de la imatge), que crea "
+"un logotip d'un text de la seva elecció, per exemple:"
 
 #: src/filters/alpha-to-logo/chalk.xml63(para)
 msgid "The <quote>Chalk</quote> logo"
@@ -2844,6 +3052,9 @@ msgid "<quote>Chalk</quote> option"
 msgstr "Opció de <quote>Escrit amb guix</quote>"
 
 # auto-translated
+#  Background Color -> Color del fons
+#  The background color -> El color del fons
+#  Selector -> Seletor
 #: src/filters/alpha-to-logo/chalk.xml100(para)
 #, fuzzy
 msgid ""
@@ -2860,6 +3071,11 @@ msgid "The <quote>Chalk</quote> filter"
 msgstr "Filtre <quote>Escrit amb guix</quote>"
 
 # auto-translated
+#  Horizontally -> Horitzontalment
+#  Ripple -> Onades del mar
+#  Gaussian -> Gaussià
+#  Gaussian Blur -> Difuminat gaussià
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/chalk.xml116(para)
 #, fuzzy
 msgid ""
@@ -2873,6 +3089,8 @@ msgstr ""
 "linkend=\"plug-in-ripple\">onda</link> la capa horitzontal i verticalment,"
 
 # auto-translated
+#  Edge detect -> Detecció de les vores
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/chalk.xml124(para)
 #, fuzzy
 msgid ""
@@ -2883,6 +3101,8 @@ msgstr ""
 "in-sobel\">Sobel</link>, i"
 
 # auto-translated
+#  Edge detect -> Detecció de les vores
+#  Edge Detect -> Detecció de vores
 #: src/filters/alpha-to-logo/chalk.xml129(para)
 #, fuzzy
 msgid ""
@@ -2892,6 +3112,7 @@ msgstr ""
 "costats de la imatge."
 
 # auto-translated
+#  Levels -> Nivells
 #: src/filters/alpha-to-logo/chalk.xml136(para)
 #, fuzzy
 msgid "increases the luminosity <link linkend=\"gimp-tool-levels\">level</link>."
@@ -2900,6 +3121,9 @@ msgstr ""
 "lluminositat."
 
 # auto-translated
+#  Filled -> Justificat
+#  Process -> Processar
+#  Filter Options -> Opcions de filtre
 #: src/filters/alpha-to-logo/chalk.xml141(para)
 #, fuzzy
 msgid ""
@@ -3031,6 +3255,8 @@ msgid "Spots density Y"
 msgstr "Densitat Y dels punts"
 
 # auto-translated
+#  Result -> Resultat
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/bovination.xml74(para)
 #, fuzzy
 msgid ""
@@ -3071,6 +3297,7 @@ msgstr ""
 " altre color en el diàleg de selecció de color."
 
 # auto-translated
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/bovination.xml120(para)
 #, fuzzy
 msgid ""
@@ -3081,6 +3308,9 @@ msgstr ""
 "noise\">Soroll sòlid</link>:"
 
 # auto-translated
+#  Brightness-Contrast -> Brillantor-contrast
+#  Bright -> Brillant
+#  Brightness -> Brillantor
 #: src/filters/alpha-to-logo/bovination.xml130(para)
 #, fuzzy
 msgid ""
@@ -3091,6 +3321,8 @@ msgstr ""
 "contrast\">Contrast</link>:"
 
 # auto-translated
+#  Default -> Per defecte
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/bovination.xml140(para)
 #, fuzzy
 msgid ""
@@ -3100,9 +3332,9 @@ msgid ""
 "<quote>Background</quote> layer is added below."
 msgstr ""
 "A més, el filtre afegeix una capa  de<link linkend=\"plug-in-"
-"gauss\">Desenfoqui</link> com una ombra de llum grisa i usa aquesta capa com"
+"gauss\">Difuminat</link> com una ombra de llum grisa i usa aquesta capa com"
 "  un<link linkend=\"plug-in-bump-map\">Mapa de relleu</link>. Finalment (de "
-"manera predeterminada) s'afegeix sota una capa  de<quote>fons</quote> blanc."
+"manera predeterminada) s'afegeix sota una capa  de<quote>Fons</quote> blanc."
 
 # auto-translated
 #: src/filters/alpha-to-logo/bovination.xml148(para)
@@ -3280,12 +3512,15 @@ msgstr ""
 "activa així com una ombra de base i una capa de fons."
 
 # auto-translated
+#  Highlight -> Ressaltat
 #: src/filters/alpha-to-logo/basic.xml54(para)
 #, fuzzy
 msgid "The <quote>Basic II</quote> also adds a highlight layer."
 msgstr "El <quote>Bàsic II</quote> també afegeix una capa de reflex."
 
 # auto-translated
+#  Filters -> Filtres
+#  Scripts -> Funcions (scripts)
 #: src/filters/alpha-to-logo/basic.xml62(para)
 #, fuzzy
 msgid ""
@@ -3296,7 +3531,7 @@ msgid ""
 msgstr ""
 "El filtre deriva dels scripts de logotip <quote>Bàsic I</quote> i "
 "<quote>Bàsic II</quote> (consulti "
-"<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu></menuchoice>),"
+"<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotip</guisubmenu></menuchoice>),"
 " que dibuixa un text amb l'efecte del filtre, per exemple."
 
 # auto-translated
@@ -3332,6 +3567,8 @@ msgid "<quote>Basic II</quote> options"
 msgstr "Opcions de <quote>Bàsic II</quote>"
 
 # auto-translated
+#  Default -> Per defecte
+#  Selector -> Seletor
 #: src/filters/alpha-to-logo/basic.xml130(para)
 #, fuzzy
 msgid ""
@@ -3348,6 +3585,9 @@ msgid "Text color"
 msgstr "Color del text"
 
 # auto-translated
+#  Default -> Per defecte
+#  Filled -> Justificat
+#  Scripts -> Funcions (scripts)
 #: src/filters/alpha-to-logo/basic.xml141(para)
 #, fuzzy
 msgid ""
@@ -3365,6 +3605,7 @@ msgstr ""
 "l'efecte del degradat."
 
 # auto-translated
+#  Options: -> Opcions:
 #: src/filters/alpha-to-logo/basic.xml157(para)
 #, fuzzy
 msgid ""
@@ -3378,9 +3619,10 @@ msgstr ""
 #: src/filters/alpha-to-logo/basic.xml163(para)
 #, fuzzy
 msgid "<guilabel>Mode</guilabel>: Multiply,"
-msgstr "<guilabel>Manera</guilabel>: multiplicar,"
+msgstr "<guilabel>Mode</guilabel>: multiplicar,"
 
 # auto-translated
+#  FG to BG (RGB) -> Entre els dos colors (RGB)
 #: src/filters/alpha-to-logo/basic.xml166(para)
 #, fuzzy
 msgid ""
@@ -3403,7 +3645,7 @@ msgstr "<guilabel>Forma</guilabel>: radial,"
 #: src/filters/alpha-to-logo/basic.xml178(para)
 #, fuzzy
 msgid "<guilabel>Dithering</guilabel>: checked."
-msgstr "<guilabel>Difuminat</guilabel>: marcat."
+msgstr "<guilabel>Tramat</guilabel>: marcat."
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -3527,6 +3769,7 @@ msgstr ""
 "Aquest filtre afegeix una resplendor misteriosa en l'alfa de la capa activa."
 
 # auto-translated
+#  Image window -> Finestra de la imatge
 #: src/filters/alpha-to-logo/alien-glow.xml47(para)
 #, fuzzy
 msgid ""
@@ -3535,10 +3778,10 @@ msgid ""
 " Glow</guimenuitem></menuchoice> in the image window), which creates a logo "
 "with the above text effect."
 msgstr ""
-"El filtre deriva del script <quote>Resplendor alienígena</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Resplendor"
-" alienígena</guimenuitem></menuchoice> en la finestra d'imatge), que crea un"
-" logotip amb l'efecte de text anterior."
+"El filtre deriva del script <quote>Lluentor estil Àlien</quote> "
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Lluentor"
+" estil Àlien</guimenuitem></menuchoice> en la finestra d'imatge), que crea "
+"un logotip amb l'efecte de text anterior."
 
 #: src/filters/alpha-to-logo/alien-glow.xml66(para)
 msgid ""
@@ -3556,6 +3799,10 @@ msgid "Glow size (pixels * 4)"
 msgstr "Mida de la lluentor (píxels * 4)"
 
 # auto-translated
+#  Feather -> Plomall
+#  Font size -> Mida de la lletra
+#  Height -> Alçada
+#  Ignore -> Ignora
 #: src/filters/alpha-to-logo/alien-glow.xml91(para)
 #, fuzzy
 msgid ""
@@ -3570,6 +3817,11 @@ msgstr ""
 ": la resplendor s'engrandirà per <quote>Grandària de la resplendor</quote> / 30, i el radi difuminat és <quote>Grandària de la resplendor</quote> / 4. Probablement hauria de triar l'altura dels seus objectes per a aquesta opció (ignori <quote>píxels  4</quote>)."
 
 # auto-translated
+#  Default -> Per defecte
+#  Selector -> Seletor
+#  Glowing -> Lluentor
+#  Button -> Botó
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/alien-glow.xml105(para)
 #, fuzzy
 msgid ""
@@ -3579,12 +3831,16 @@ msgid ""
 msgstr "TOT"
 
 # auto-translated
+#  Alien Glow -> Lluentor estil Àlien
 #: src/filters/alpha-to-logo/alien-glow.xml118(para)
 #, fuzzy
 msgid "Reproducing an eerie alien glow is easy:"
 msgstr "Reproduir una resplendor alienígena misteriós és fàcil:"
 
 # auto-translated
+#  Replace -> Reemplaça
+#  Create -> Crea
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/alien-glow.xml123(para)
 #, fuzzy
 msgid ""
@@ -3595,6 +3851,9 @@ msgstr ""
 "replace\">selecció des del canal alfa</link> de la capa activa."
 
 # auto-translated
+#  Shaped (spherical) -> Forma (esfèrica)
+#  Select -> Selecciona
+#  FG to BG (RGB) -> Entre els dos colors (RGB)
 #: src/filters/alpha-to-logo/alien-glow.xml130(para)
 #, fuzzy
 msgid ""
@@ -3607,6 +3866,10 @@ msgstr ""
 " FG = gris fosc (79,79,79), BG = negre."
 
 # auto-translated
+#  Feather -> Plomall
+#  New Layer -> Nova capa
+#  Create -> Crea
+#  Select -> Selecciona
 #: src/filters/alpha-to-logo/alien-glow.xml138(para)
 #, fuzzy
 msgid ""
@@ -3615,11 +3878,11 @@ msgid ""
 " selection slightly, <link linkend=\"gimp-selection-feather\">feather</link>"
 " it, and fill it with the <guilabel>Glow color</guilabel>."
 msgstr ""
-"Creu una <link linkend=\"gimp-layer-new\">capa nova</link> "
-"(<quote>Resplendor alienígena</quote>) a baix. <link linkend=\"gimp-"
-"selection-grow\">Engrandeixi</link> la selecció lleugerament, <link linkend"
-"=\"gimp-selection-feather\">difumini-la</link>, i empleni-la amb  "
-"el<guilabel>Color de la resplendor</guilabel>."
+"Creu una <link linkend=\"gimp-layer-new\">capa nova</link> (<quote>Lluentor "
+"estil Àlien</quote>) a baix. <link linkend=\"gimp-selection-"
+"grow\">Estendre</link> la selecció lleugerament, <link linkend=\"gimp-"
+"selection-feather\">difumini-la</link>, i empleni-la amb  el<guilabel>Color "
+"de la resplendor</guilabel>."
 
 #: src/filters/alpha-to-logo/alien-glow.xml148(para)
 msgid "Create a new background layer filled with black."
@@ -3766,6 +4029,7 @@ msgid "The <quote>3D Outline</quote> logo"
 msgstr "Logotip amb <quote>Vora 3D</quote>"
 
 # auto-translated
+#  Image window -> Finestra de la imatge
 #: src/filters/alpha-to-logo/3d-outline.xml44(para)
 #, fuzzy
 msgid ""
@@ -3774,8 +4038,8 @@ msgid ""
 " Outline</guimenuitem></menuchoice> in the image window), which creates a "
 "logo (see above) with outlined text and a drop shadow."
 msgstr ""
-"El filtre deriva del script <quote>Contorn 3D</quote> "
-"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crear</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Contorn"
+"El filtre deriva del script <quote>Vora 3D</quote> "
+"(<menuchoice><guimenu>Arxiu</guimenu><guisubmenu>Crea</guisubmenu><guisubmenu>Logotip</guisubmenu><guimenuitem>Vora"
 " 3D</guimenuitem></menuchoice> en la finestra d'imatge), que crea un logotip"
 " (miri a dalt) amb el contorn del text i una ombra de base."
 
@@ -3794,6 +4058,11 @@ msgstr ""
 "aquestes àrees de la capa activa definides pels píxels no transparents."
 
 # auto-translated
+#  Edge detect -> Detecció de les vores
+#  Edge Detect -> Detecció de vores
+#  Plug-In -> Connector
+#  Select -> Selecciona
+#  Rectangle -> Rectangle
 #: src/filters/alpha-to-logo/3d-outline.xml61(para)
 #, fuzzy
 msgid ""
@@ -3835,6 +4104,7 @@ msgid "<quote>3D Outline</quote> options"
 msgstr "Opcions de <quote>Vora 3D</quote>"
 
 # auto-translated
+#  Preview -> Previsualització
 #: src/filters/alpha-to-logo/3d-outline.xml129(para)
 #, fuzzy
 msgid ""
@@ -3845,7 +4115,7 @@ msgid ""
 msgstr ""
 "Aquí pot veure i canviar el patró actualment seleccionat. Quan prem sobre el"
 " patró, s'obre una vista prèvia ampliada. Pressionant el botó "
-"<guibutton>Navegador</guibutton> s'obre un diàleg on pot seleccionar un "
+"<guibutton>Navega...</guibutton> s'obre un diàleg on pot seleccionar un "
 "patró diferent."
 
 #: src/filters/alpha-to-logo/3d-outline.xml138(term)
@@ -3853,6 +4123,14 @@ msgid "Outline blur radius"
 msgstr "Radi del contorn difuminat"
 
 # auto-translated
+#  Edge detect -> Detecció de les vores
+#  Results -> Resultats
+#  Result -> Resultat
+#  Filled -> Justificat
+#  Edge Detect -> Detecció de vores
+#  Plug-In -> Connector
+#  Select -> Selecciona
+#  Pattern: -> Patró:
 #: src/filters/alpha-to-logo/3d-outline.xml140(para)
 #, fuzzy
 msgid ""
@@ -3867,6 +4145,9 @@ msgstr ""
 "dóna un patró ampli però tacat:"
 
 # auto-translated
+#  Blur Radius -> Radi de difuminat
+#  Blur radius -> Radi del difuminat
+#  Outline blur radius -> Amplada del contorn
 #: src/filters/alpha-to-logo/3d-outline.xml148(title)
 #, fuzzy
 msgid "Outline blur radius example"
@@ -3891,6 +4172,7 @@ msgid "Shadow blur radius"
 msgstr "Radi de l'ombra difuminada"
 
 # auto-translated
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/3d-outline.xml182(para)
 #, fuzzy
 msgid ""
@@ -3913,6 +4195,13 @@ msgid "Bumpmap (alpha layer) blur radius"
 msgstr "Radi difuminat per relleu (canal alfa)"
 
 # auto-translated
+#  Edge detect -> Detecció de les vores
+#  Filter applied -> S’ha aplicat el filtre
+#  Edge Detect -> Detecció de vores
+#  Gaussian -> Gaussià
+#  Gaussian Blur -> Difuminat gaussià
+#  Plug-In -> Connector
+#  Emboss -> Esculpeix
 #: src/filters/alpha-to-logo/3d-outline.xml221(para)
 #, fuzzy
 msgid ""
@@ -3923,7 +4212,7 @@ msgid ""
 "will be applied with the specified radius. So a high value will reduce the "
 "3D effect."
 msgstr ""
-"El <link linkend=\"plug-in-bump-map\">mapa de relleu</link> usat per crear "
+"El <link linkend=\"plug-in-bump-map\">Mapa de relleu</link> usat per crear "
 "l'efecte 3D és la capa activa (alpha layer) amb el filtre de <link linkend"
 "=\"plug-in-edge\">detectar vores</link> aplicat. Abans d'usar-ho per repujar"
 " la capa del patró, s'aplicarà un altre <link linkend=\"plug-in-"
@@ -3931,6 +4220,8 @@ msgstr ""
 "alt reduirà l'efecte 3D."
 
 # auto-translated
+#  Default -> Per defecte
+#  Plug-In -> Connector
 #: src/filters/alpha-to-logo/3d-outline.xml235(para)
 #, fuzzy
 msgid ""
@@ -3944,7 +4235,7 @@ msgstr ""
 " amb les seves opcions predeterminats. Sinó, la finestra de diàleg del <link"
 " linkend=\"plug-in-bump-map\">Mapa de relleu</link> s'obrirà mentre "
 "s'executa el filtre i pot triar opcions diferents. Tingui en compte que quan"
-" tanca la finestra pressionant el botó <keycap>Cancel·lar</keycap>, no "
+" tanca la finestra pressionant el botó <keycap>Cancel·la</keycap>, no "
 "s'aplicarà el mapa de relleu."
 
 #: src/filters/alpha-to-logo/3d-outline.xml247(term)
@@ -3952,6 +4243,8 @@ msgid "Shadow X offset; Shadow Y offset"
 msgstr "Desplaçament X de l'ombra; desplaçament Y de l'ombra"
 
 # auto-translated
+#  Image Size -> Mida de la imatge
+#  Image size -> Mida de la imatge
 #: src/filters/alpha-to-logo/3d-outline.xml249(para)
 #, fuzzy
 msgid ""
