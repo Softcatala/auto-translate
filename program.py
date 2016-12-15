@@ -215,6 +215,16 @@ def _word_replacement(string):
 
     return string
 
+
+def search_for_tm(entry):
+    print str(len(tm))
+    for eng in tm:
+        eng_lo = eng.lower()
+        if len(eng_lo) > 5 and eng_lo in entry.msgid.lower():
+            value = tm[eng]
+            if value.lower() not in entry.msgstr.lower():
+                entry.tcomment += u"\n {0} -> {1}".format(eng, unicode(tm[eng]))
+
 def main():
 
     print ("Translates using Other languages translations")
@@ -249,6 +259,8 @@ def main():
 
         entry.tcomment = "auto-translated"
         entry.flags.append("fuzzy")
+        search_for_tm(entry)
+
 
     input_po.save(output_file)
     print ("Auto translated strings:" + str(cnt))
