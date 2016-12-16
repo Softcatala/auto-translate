@@ -217,14 +217,15 @@ def _word_replacement(string):
 
 
 def search_for_tm(entry):
-    print str(len(tm))
+    reported = []
     for eng in tm:
         eng_lo = eng.lower()
-        if len(eng_lo) > 5 and eng_lo in entry.msgid.lower():
+        if eng_lo not in reported and len(eng_lo) > 5 and eng_lo in entry.msgid.lower():
             value = tm[eng]
             if value.lower() not in entry.msgstr.lower():
                 entry.tcomment += u"\n {0} -> {1}".format(eng, unicode(tm[eng]))
-
+                reported.append(eng)
+          
 def main():
 
     print ("Translates using Other languages translations")

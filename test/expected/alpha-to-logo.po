@@ -564,7 +564,6 @@ msgstr ""
 #  Enabled -> Habilitat
 #  The background color -> El color del fons
 #  Selector -> Seletor
-#  Enable -> Habilita
 #: src/filters/alpha-to-logo/t-o-p.xml193(para)
 #, fuzzy
 msgid ""
@@ -942,7 +941,6 @@ msgstr ""
 #  enable -> habilita
 #  Enabled -> Habilitat
 #  Function -> Funció
-#  Enable -> Habilita
 #: src/filters/alpha-to-logo/introduction.xml34(para)
 #, fuzzy
 msgid ""
@@ -1223,7 +1221,6 @@ msgstr ""
 
 # auto-translated
 #  yellow -> groc
-#  Yellow -> Groc
 #  Glowing -> Lluentor
 #: src/filters/alpha-to-logo/glowing.xml59(para)
 #, fuzzy
@@ -1311,7 +1308,6 @@ msgstr ""
 
 # auto-translated
 #  yellow -> groc
-#  Yellow -> Groc
 #  Feather -> Plomall
 #  Filled -> Justificat
 #  Glowing -> Lluentor
