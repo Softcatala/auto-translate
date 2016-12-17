@@ -1,1 +1,5 @@
 grandària,mida
+l'arxiu,el fitxer
+els arxius, els fitxers
+arxiu, fitxer
+guardar, desar

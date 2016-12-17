@@ -129,18 +129,21 @@ def _translate_from_spanish(english, text):
     
     pos = 0
     ca_pos = 0
-    for match in matches:
-        eng = matches_en[pos].strip()
-        if eng in tm:
-            print "Found text in tags in TM:'" + eng.encode("utf-8") + "'"
-            marker = "CATEXT-" + str(ca_pos)
-            print ("Marker: '{0}'".format(marker.encode("utf-8")))
-            print ("Match: '{0}'".format(match.encode("utf-8")))
-            text = text.replace(match.strip(), marker, 1)
-            markers_text[marker] = tm[eng]
-            ca_pos = ca_pos + 1
+    if len(markers_en) == len(markers):
+        for match in matches:
+            eng = matches_en[pos].strip()
+            if eng in tm:
+                print "Found text in tags in TM:'" + eng.encode("utf-8") + "'"
+                marker = "CATEXT-" + str(ca_pos)
+                print ("Marker: '{0}'".format(marker.encode("utf-8")))
+                print ("Match: '{0}'".format(match.encode("utf-8")))
+                text = text.replace(match.strip(), marker, 1)
+                markers_text[marker] = tm[eng]
+                ca_pos = ca_pos + 1
 
-        pos = pos + 1
+            pos = pos + 1
+    else:
+        print ("Different number of matches: {0} {1} for {2}. Cannot look for word between tags in TM".format(len(markers_en), len(markers), english))
 
     translated = _get_translation(text)
    
@@ -223,7 +226,7 @@ def search_for_tm(entry):
         if eng_lo not in reported and len(eng_lo) > 5 and eng_lo in entry.msgid.lower():
             value = tm[eng]
             if value.lower() not in entry.msgstr.lower():
-                entry.tcomment += u"\n {0} -> {1}".format(eng, unicode(tm[eng]))
+                entry.tcomment += u"{0} -> {1}".format(eng, unicode(tm[eng]))
                 reported.append(eng)
           
 def main():
