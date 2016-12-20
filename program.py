@@ -21,8 +21,11 @@
 
 import logging
 import polib
-import urllib, json, re
+import urllib
+import json
+import re
 from optparse import OptionParser
+
 
 def _load_po_into_dictionary(filename):
     strings = {}
@@ -32,18 +35,18 @@ def _load_po_into_dictionary(filename):
         if entry.msgstr is '' or '@@image' in entry.msgid:
             continue
 
-        strings[entry.msgid] = _parse_accents(entry.msgstr); 
+        strings[entry.msgid] = _parse_accents(entry.msgstr)
 
     print("Read Spanish sentences:" + str(len(strings)))
     return strings
 
 def _parse_accents(string):
-    string = string.replace(u"í",u'í')
-    string = string.replace(u"á",u'á')
-    string = string.replace(u"é",u'é')
-    string = string.replace(u"ó",u'ó')
-    string = string.replace(u"ú",u'ú')
-    string = string.replace(u"ñ",u'ñ')  
+    string = string.replace(u"í", u'í')
+    string = string.replace(u"á", u'á')
+    string = string.replace(u"é", u'é')
+    string = string.replace(u"ó", u'ó')
+    string = string.replace(u"ú", u'ú')
+    string = string.replace(u"ñ", u'ñ')
     return string
 
 def _get_marker(pos, end, self_closed):
@@ -56,16 +59,16 @@ def _get_marker(pos, end, self_closed):
     return s + "MATCH-" + str(pos)
 
 def _get_translation(text):
-    
+
     # Request translation
     url = "https://www.softcatala.org/apertium/json/translate?langpair=es|ca&markUnknown=no"
-    url += "&q=" + urllib.quote_plus(text.encode('utf-8'));
-    print "url->" + url
+    url += "&q=" + urllib.quote_plus(text.encode('utf-8'))
+    print("url->" + url)
 
     response = urllib.urlopen(url)
     data = json.loads(response.read())
     translated =  data['responseData']['translatedText']
-    print ("Translated (returned):" + translated.encode("utf-8"))
+    print("Translated (returned):" + translated.encode("utf-8"))
     return translated
 
 tm = None
@@ -95,14 +98,14 @@ def _create_markers_in_string(text):
         self_closed = match[len(match) - 2] == '/'
         marker = _get_marker(pos, end, self_closed)
 
-        if where + len (match) < len(text):
+        if where + len(match) < len(text):
             marker = marker + ' '
- 
+
         if where > 0:
             marker = ' ' + marker
         
         text = text.replace(match, marker, 1)
-        markers[marker] = match 
+        markers[marker] = match
         pos = pos + 1
 
     return markers, text
@@ -133,29 +136,29 @@ def _translate_from_spanish(english, text):
         for match in matches:
             eng = matches_en[pos].strip()
             if eng in tm:
-                print "Found text in tags in TM:'" + eng.encode("utf-8") + "'"
+                print("Found text in tags in TM:'" + eng.encode("utf-8") + "'")
                 marker = "CATEXT-" + str(ca_pos)
-                print ("Marker: '{0}'".format(marker.encode("utf-8")))
-                print ("Match: '{0}'".format(match.encode("utf-8")))
+                print("Marker: '{0}'".format(marker.encode("utf-8")))
+                print("Match: '{0}'".format(match.encode("utf-8")))
                 text = text.replace(match.strip(), marker, 1)
                 markers_text[marker] = tm[eng]
                 ca_pos = ca_pos + 1
 
             pos = pos + 1
     else:
-        print ("Different number of matches: {0} {1} for {2}. Cannot look for word between tags in TM".format(len(markers_en), len(markers), english))
+        print("Different number of matches: {0} {1} for {2}. Cannot look for word between tags in TM".format(len(markers_en), len(markers), english))
 
     translated = _get_translation(text)
-   
+
     # Put back markers for HTML tags Spanish
     for marker in markers.keys():
-        translated = translated.replace(marker, markers[marker], 1) 
+        translated = translated.replace(marker, markers[marker], 1)
     
     # Put back markers for HTML text
     for marker in markers_text.keys():
         translated = translated.replace(marker, markers_text[marker], 1)
 
-    print ("Translated:" + translated.encode("utf-8"))
+    print("Translated:" + translated.encode("utf-8"))
     return translated
 
 def read_parameters():
@@ -207,12 +210,12 @@ def _word_replacement(string):
     if words is None:
         words = {}
         with open('word-replace.txt') as f:
-            print ("Read word-replace.txt")
+            print("Read word-replace.txt")
             lines = f.readlines()
             for line in lines:
                 source, target = line.split(',')
                 words[unicode(source, "utf-8")] = unicode(target, "utf-8")
-               
+
     for key in words.keys():
         string = string.replace(key, words[key])
 
@@ -226,17 +229,17 @@ def search_for_tm(entry):
         if eng_lo not in reported and len(eng_lo) > 5 and eng_lo in entry.msgid.lower():
             value = tm[eng]
             if value.lower() not in entry.msgstr.lower():
-                entry.tcomment += u"{0} -> {1}".format(eng, unicode(tm[eng]))
+                entry.tcomment += u"\n {0} -> {1}".format(eng, unicode(tm[eng]))
                 reported.append(eng)
           
 def main():
 
-    print ("Translates using Other languages translations")
+    print("Translates using Other languages translations")
 
     source_file, translated_file, output_file = read_parameters()
-    print ("Source file: " + source_file)
-    print ("Translated file: " + translated_file)
-    print ("Output file: " + output_file)
+    print("Source file: " + source_file)
+    print("Translated file: " + translated_file)
+    print("Output file: " + output_file)
 
     # Create a dictionary with translated segments in Spanish
     strings = _load_po_into_dictionary(translated_file)
@@ -247,7 +250,7 @@ def main():
 
         if len(entry.msgstr) > 0:
             continue
-        
+
         if entry.msgid not in strings:
             continue
         
@@ -267,8 +270,7 @@ def main():
 
 
     input_po.save(output_file)
-    print ("Auto translated strings:" + str(cnt))
-
+    print("Auto translated strings:" + str(cnt))
 
 if __name__ == "__main__":
     main()
