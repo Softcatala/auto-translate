@@ -213,8 +213,14 @@ def _word_replacement(string):
             print("Read word-replace.txt")
             lines = f.readlines()
             for line in lines:
+                if ',' not in line:
+                    continue
+
                 source, target = line.split(',')
-                words[unicode(source, "utf-8")] = unicode(target, "utf-8")
+                if source is not None and target is not None:
+                    source = source.strip()
+                    target = target.strip()
+                    words[unicode(source, "utf-8")] = unicode(target, "utf-8")
 
     for key in words.keys():
         string = string.replace(key, words[key])
