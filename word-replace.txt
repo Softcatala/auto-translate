@@ -1,5 +1,24 @@
 grandària,mida
 l'arxiu,el fitxer
+de l'arxiu, del fitxer
 els arxius, els fitxers
+dels arxius, dels fitxers
 arxiu, fitxer
-guardar, desar
+guardar desar
+guarda, desa
+històric, historial
+el comando, l'ordre
+un comando, una ordre
+aquest comando, aquesta ordre
+El comando, L'ordre
+Aquest comando, aquesta ordre
+comando, ordre
+<keycap>Desplaçament</keycap>, <keycap>Maj</keycap>
+a la regla, al regle
+de la regla, del regle
+la regla, el regle
+li permet, us permet
+Consulti, Consulteu
+empotrable, encastable
+empotrables, encastables
+pugues, pot
