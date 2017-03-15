@@ -49,14 +49,14 @@ def read_parameters():
     (options, args) = parser.parse_args()
 
     if len(options.source_file) == 0 or len(options.output_file) == 0:
-        print("Missing inputs file(s)")
+        parser.print_help()
         exit(1)
 
     return (options.source_file, options.output_file)
           
 def main():
 
-    print ("Clean up: fuzzy entries and comments")
+    print ("Clean up: removes fuzzy entries and comments from a PO file")
 
     source_file, output_file = read_parameters()
     print ("Source file: " + source_file)
