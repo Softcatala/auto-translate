@@ -1,5 +1,6 @@
 ## Introducció
 
+Programa que utilitza les traduccions en un altre llengua amb combinació d'Apertium i memòries de traducció per accelerar el procés de traducció.
 
 ## Com funciona
 
@@ -19,6 +20,10 @@
 L'objectiu és que llavors cal editar i revisar el fitxer català final. 
 
 En les proves fetes es va entre 6 i 8 vegades més ràpid editant la traducció així que no fent-la des de zero de l'anglès. 
+
+## Ús en projectes
+
+S'està utilitzant exitosament per traduir la documentació del GIMP 2.10 al català.
 
 ## Contacte
 
